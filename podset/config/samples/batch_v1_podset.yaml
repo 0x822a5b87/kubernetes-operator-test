@@ -1,0 +1,6 @@
+apiVersion: batch.app.example.com/v1
+kind: PodSet
+metadata:
+  name: podset-sample
+spec:
+  replicas: 1
